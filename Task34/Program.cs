@@ -3,7 +3,7 @@
 int Input()
 {
     Console.Write("Введите число элементов массива: ");
-    string inp = Console.ReadLine();
+    string? inp = Console.ReadLine();
     int.TryParse(inp, out int number);
     return number;
 }
